@@ -1,21 +1,6 @@
 /* GENERAL STYLES */
 
 * {
-  box-sizing:border-box;
-}
-
-
-.portofolio {
-background-color: hsla(0, 0%, 100%, .7);
-  border-radius: 10px;
-  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
-  width: 15rem;
- 
-}
-
-
-
-* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -33,6 +18,37 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+
+/* PORTOFOLIO STYLES */
+
+
+.portofolio {
+background-color: hsla(0, 0%, 100%, .7);
+  border-radius: 10px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  width: 15rem;
+ 
+}
+p,a{
+  font-family: 'Josefin Slab', serif;
+  font-size: 110%;
+}
+a {
+  color:dimgray;
+}
+a:visited {
+    color:black;
+}
+h1,h2,h3 {
+  font-family: 'Lato', sans-serif;
+  
+}
+h2 {
+  padding-bottom: 1rem;
+}
+
+
+
 .head, .links {
   text-align: center;
 }
